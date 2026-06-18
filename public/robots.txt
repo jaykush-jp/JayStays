@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Private dashboards — no crawl
+Disallow: /customer/
+Disallow: /hotel/
+Disallow: /admin/
+Disallow: /book/
+Disallow: /payment/
+Disallow: /login
+Disallow: /register
+
+Sitemap: /sitemap.xml
